@@ -11,8 +11,11 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "cookie-universal-nuxt": "^2.1.2",
+    "element-ui": "^2.4.11",
     "nuxt": "^2.0.0",
-    "element-ui": "^2.4.11"
+    "nuxt-universal-cookies": "0.0.5",
+    "universal-cookie": "^4.0.3"
   },
   "devDependencies": {}
 }

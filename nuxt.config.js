@@ -36,10 +36,20 @@ export default {
   */
   buildModules: [
   ],
+
+  router: {
+    middleware: [
+      'auth'
+    ]
+  },
   /*
   ** Nuxt.js modules
   */
   modules: [
+    {
+      src: 'nuxt-universal-cookies',
+      options: {}
+    }
   ],
   /*
   ** Build configuration
